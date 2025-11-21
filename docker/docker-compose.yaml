@@ -1,0 +1,44 @@
+services:
+  minio1:
+    image: minio/minio:latest
+    command: server --console-address ":9001" http://minio{1...4}/data
+    volumes:
+      - minio1-data:/data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+  minio2:
+    image: minio/minio:latest
+    command: server --console-address ":9001" http://minio{1...4}/data
+    volumes:
+      - minio2-data:/data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+  minio3:
+    image: minio/minio:latest
+    command: server --console-address ":9001" http://minio{1...4}/data
+    volumes:
+      - minio3-data:/data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+  minio4:
+    image: minio/minio:latest
+    command: server --console-address ":9001" http://minio{1...4}/data
+    volumes:
+      - minio4-data:/data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+
+
+volumes:
+  minio1-data:
+  minio2-data:
+  minio3-data:
+  minio4-data:
