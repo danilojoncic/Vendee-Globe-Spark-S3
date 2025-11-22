@@ -89,6 +89,18 @@ services:
       - minio-cluster
     restart: no
 
+  data_fetch:
+    build:
+      context: ../scripts
+      dockerfile: ../docker/Dockerfile-fetch
+    container_name: data_fetch
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - nginx
+    restart: "no"
+
+
 
 volumes:
   minio1-data:
