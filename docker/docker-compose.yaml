@@ -98,7 +98,10 @@ services:
       - PYTHONUNBUFFERED=1
     depends_on:
       - nginx
-    restart: "no"
+    restart: no
+    networks:
+      minio-cluster:
+
 
 
 
