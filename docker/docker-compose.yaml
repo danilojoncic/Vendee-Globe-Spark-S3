@@ -116,6 +116,22 @@ services:
       - minio-cluster
     restart: no
 
+  csv_convertor:
+    build:
+      context: ../scripts
+      dockerfile: ../docker/Dockerfile-convert
+    container_name: csv_converter
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      nginx:
+        condition: service_healthy
+      spark-master:
+        condition: service_healthy
+    networks:
+      - minio-cluster
+    restart: no
+
   spark-master:
     image: apache/spark:3.5.7
     container_name: spark-master

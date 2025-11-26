@@ -1,3 +1,5 @@
 requests==2.32.3
 tqdm==4.67.1
 minio==7.2.8
+python-calamine~=0.5.3
+pandas~=2.3.3
