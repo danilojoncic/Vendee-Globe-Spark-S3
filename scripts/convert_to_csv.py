@@ -43,6 +43,7 @@ def list_xlsx_files():
         logger.error(f"Error listing objects from MinIO: {e}")
         return []
 
+
 def process_file(file_name: str):
     try:
         response = minio_client.get_object(MINIO_BUCKET, file_name)
@@ -65,6 +66,41 @@ def process_file(file_name: str):
         df = df.iloc[:, 1:]
         df = df.iloc[:-4, :]
         df = df.drop(0, errors="ignore")
+        df.columns = df.columns.str.replace(r'[\r\n]+', ' ', regex=True).str.strip()
+        df = df.map(lambda x: str(x).replace("\r\n", " ").strip() if isinstance(x, str) else x)
+        first_col = df.columns[0]
+        df = df[~df[first_col].astype(str).str.strip().isin(['RET', 'DNF', 'ARV'])]
+        df = df.reset_index(drop=True)
+
+        new_columns = [
+            'rank',
+            'nationality_sail',
+            'skipper_boat',
+            'time',
+            'latitude',
+            'longitude',
+            'heading_30min',
+            'speed_30min',
+            'avg_speed_30min',
+            'distance_30min',
+            'heading_last_report',
+            'speed_last_report',
+            'avg_speed_last_report',
+            'distance_last_report',
+            'heading_24h',
+            'speed_24h',
+            'avg_speed_24h',
+            'distance_24h',
+            'dtf',
+            'dtl'
+        ]
+
+        actual_cols = len(df.columns)
+        if actual_cols != len(new_columns):
+            logger.warning(f"Expected {len(new_columns)} columns but found {actual_cols}")
+            new_columns = new_columns[:actual_cols]
+
+        df.columns = new_columns
 
         csv_buffer = BytesIO()
         df.to_csv(csv_buffer, index=False)
