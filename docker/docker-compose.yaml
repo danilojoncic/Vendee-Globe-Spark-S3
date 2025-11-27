@@ -162,7 +162,7 @@ services:
     command: >
       sh -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077 && tail -f /dev/null"
     environment:
-      - SPARK_WORKER_MEMORY=768m
+      - SPARK_WORKER_MEMORY=2g
       - SPARK_WORKER_CORES=4
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
@@ -184,7 +184,7 @@ services:
     command: >
       sh -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077 && tail -f /dev/null"
     environment:
-      - SPARK_WORKER_MEMORY=768m
+      - SPARK_WORKER_MEMORY=2g
       - SPARK_WORKER_CORES=4
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
