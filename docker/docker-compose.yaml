@@ -141,6 +141,7 @@ services:
     ports:
       - "8080:8080"
       - "7077:7077"
+      - "4040:4040"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
       interval: 10s
@@ -162,6 +163,7 @@ services:
       sh -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077 && tail -f /dev/null"
     environment:
       - SPARK_WORKER_MEMORY=768m
+      - SPARK_WORKER_CORES=4
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
       interval: 10s
@@ -183,6 +185,7 @@ services:
       sh -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077 && tail -f /dev/null"
     environment:
       - SPARK_WORKER_MEMORY=768m
+      - SPARK_WORKER_CORES=4
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
       interval: 10s

@@ -1,0 +1,15 @@
+for running in docker spark do the following
+
+using sbt with assembly plugin use sbt assembly to build and package fat jar
+then use
+docker cp fatjar location to spark-master/jars
+after finishing your fat jar is available to be ran
+
+
+
+docker compose up --build
+docker stats
+docker exec -it spark-master bash
+cd ..
+cd bin
+./spark-submit --class imeKlaseUKojojJeMainMetoda ../jars/imeFatJaraKojiJeUpakovan.jar
