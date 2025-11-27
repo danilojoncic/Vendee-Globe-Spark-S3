@@ -66,8 +66,14 @@ def process_file(file_name: str):
         df = df.iloc[:, 1:]
         df = df.iloc[:-4, :]
         df = df.drop(0, errors="ignore")
-        df.columns = df.columns.str.replace(r'[\r\n]+', ' ', regex=True).str.strip()
-        df = df.map(lambda x: str(x).replace("\r\n", " ").strip() if isinstance(x, str) else x)
+        df.columns = df.columns.str.replace(r"[\r\n]+", " ", regex=True).str.strip()
+        df = df.map(
+            lambda x: str(x).replace("\r\n", " ")
+            .replace("\n", " ")
+            .replace("\r", " ")
+            .strip()
+            if isinstance(x, str) else x
+        )
         first_col = df.columns[0]
         df = df[~df[first_col].astype(str).str.strip().isin(['RET', 'DNF', 'ARV'])]
         df = df.reset_index(drop=True)
