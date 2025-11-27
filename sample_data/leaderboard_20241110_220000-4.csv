@@ -1,0 +1,41 @@
+rank,nationality_sail,skipper_boat,time,latitude,longitude,heading_30min,speed_30min,avg_speed_30min,distance_30min,heading_last_report,speed_last_report,avg_speed_last_report,distance_last_report,heading_24h,speed_24h,avg_speed_24h,distance_24h,dtf,dtl
+1,SUI FRA 08,Justine Mettraux TeamWork - Team Snef,22:30 FR,45°52.87'N,03°05.64'W,187°,17.0 kts,10.1 kts,8.5 nm,217°,9.7 kts,9.1 kts,39.0 nm,235°,2.7 kts,2.7 kts,65.8 nm,24210.5 nm,0.0 nm
+2,FRA FRA 112,Sébastien Simon Groupe Dubreuil,22:30 FR,45°50.01'N,03°02.95'W,183°,16.2 kts,8.5 kts,8.1 nm,215°,10.0 kts,9.2 kts,40.1 nm,232°,2.8 kts,2.7 kts,66.0 nm,24210.7 nm,0.2 nm
+3,FRA FRA 17,Yannick Bestaven Maître CoQ V,22:30 FR,45°51.76'N,03°04.20'W,185°,15.5 kts,8.7 kts,7.8 nm,216°,9.8 kts,9.0 kts,39.1 nm,234°,2.7 kts,2.7 kts,65.6 nm,24210.8 nm,0.3 nm
+4,FRA FRA 2030,Paul Meilhat Biotherm,22:30 FR,45°46.89'N,02°59.15'W,184°,13.9 kts,7.4 kts,6.9 nm,210°,9.7 kts,8.5 kts,38.9 nm,229°,2.7 kts,2.7 kts,65.9 nm,24211.6 nm,1.1 nm
+5,FRA FRA 83,Sébastien Marsset FOUSSIER,22:30 FR,45°49.91'N,03°00.91'W,192°,12.6 kts,8.2 kts,6.3 nm,200°,11.5 kts,9.3 kts,45.9 nm,231°,2.7 kts,2.7 kts,64.9 nm,24211.9 nm,1.4 nm
+6,GBR FRA 100,Sam Goodchild VULNERABLE,22:30 FR,45°51.60'N,03°01.45'W,186°,17.8 kts,10.2 kts,8.9 nm,210°,10.7 kts,9.5 kts,42.7 nm,233°,2.7 kts,2.7 kts,64.2 nm,24212.4 nm,1.9 nm
+7,FRA FRA 14,Arnaud Boissières La Mie Câline,22:30 FR,45°52.78'N,03°01.57'W,194°,13.1 kts,9.0 kts,6.6 nm,216°,9.2 kts,8.5 kts,36.9 nm,234°,2.6 kts,2.6 kts,63.5 nm,24212.9 nm,2.4 nm
+8,FRA FRA 01,Violette Dorange DeVenir,22:30 FR,45°43.04'N,02°51.31'W,184°,11.3 kts,5.8 kts,5.6 nm,196°,10.8 kts,8.0 kts,43.0 nm,223°,2.7 kts,2.6 kts,64.8 nm,24214.7 nm,4.2 nm
+9,GBR GBR 777,Pip Hare Medallia,22:30 FR,45°56.64'N,03°01.06'W,200°,12.5 kts,9.5 kts,6.2 nm,216°,9.8 kts,9.1 kts,39.1 nm,236°,2.5 kts,2.5 kts,61.0 nm,24215.1 nm,4.6 nm
+10,FRA FRA 10,Romain Attanasio Fortinet - Best Western,22:30 FR,45°45.57'N,02°51.95'W,181°,12.5 kts,5.9 kts,6.2 nm,191°,11.5 kts,8.1 kts,45.9 nm,225°,2.6 kts,2.5 kts,63.2 nm,24215.4 nm,4.9 nm
+11,NZL NZL 64,Conrad Colman MS Amlin,22:30 FR,45°46.42'N,02°51.55'W,188°,12.7 kts,7.4 kts,6.4 nm,196°,11.1 kts,8.3 kts,44.2 nm,225°,2.6 kts,2.5 kts,62.4 nm,24216.1 nm,5.6 nm
+12,FRA FRA 3,Jérémie Beyou Charal,22:30 FR,45°49.84'N,02°53.33'W,177°,16.5 kts,7.0 kts,8.3 nm,205°,10.1 kts,8.4 kts,40.3 nm,228°,2.5 kts,2.5 kts,61.0 nm,24216.6 nm,6.1 nm
+13,FRA FRA 53,Maxime Sorel V and B - Monbana - Mayenne,22:30 FR,45°54.73'N,02°53.75'W,189°,16.5 kts,10.1 kts,8.2 nm,205°,10.4 kts,8.8 kts,41.8 nm,232°,2.4 kts,2.4 kts,58.0 nm,24218.6 nm,8.1 nm
+14,FRA FRA 172,Louis Duc Fives Group - Lantana Environnement,22:30 FR,45°44.83'N,02°46.20'W,192°,10.6 kts,6.6 kts,5.3 nm,195°,10.9 kts,8.0 kts,43.5 nm,222°,2.5 kts,2.4 kts,61.0 nm,24218.7 nm,8.2 nm
+15,FRA FRA 79,Charlie Dalin MACIF Santé Prévoyance,22:30 FR,45°43.74'N,02°44.85'W,184°,10.2 kts,5.2 kts,5.1 nm,193°,10.1 kts,7.1 kts,40.3 nm,220°,2.5 kts,2.4 kts,61.1 nm,24219.0 nm,8.5 nm
+16,FRA FRA 56,Fabrice Amedeo Nexans - Wewise,22:30 FR,45°48.97'N,02°47.86'W,189°,10.5 kts,6.2 kts,5.2 nm,198°,10.1 kts,7.7 kts,40.3 nm,225°,2.4 kts,2.4 kts,58.8 nm,24219.5 nm,9.0 nm
+17,FRA FRA 15,Clarisse Crémer L'Occitane en Provence,22:30 FR,45°43.59'N,02°43.71'W,266°,13.2 kts,12.3 kts,6.6 nm,192°,10.5 kts,7.2 kts,42.0 nm,220°,2.5 kts,2.4 kts,60.8 nm,24219.7 nm,9.2 nm
+18,FRA FRA 29,Jean Le Cam Tout commence en Finistère - Armor-lux,22:30 FR,45°41.70'N,02°42.33'W,181°,12.5 kts,5.7 kts,6.3 nm,189°,11.5 kts,7.6 kts,46.1 nm,218°,2.6 kts,2.4 kts,61.7 nm,24219.7 nm,9.2 nm
+19,FRA FRA 30,Benjamin Ferré Monnoyeur - DUO for a JOB,22:30 FR,45°42.51'N,02°42.45'W,182°,12.3 kts,5.8 kts,6.2 nm,191°,11.5 kts,7.8 kts,45.9 nm,218°,2.5 kts,2.4 kts,61.0 nm,24220.0 nm,9.5 nm
+20,SUI SUI 49,Oliver Heer Tut gut.,22:30 FR,45°43.85'N,02°43.36'W,178°,11.2 kts,4.6 kts,5.6 nm,188°,10.6 kts,6.9 kts,42.6 nm,220°,2.5 kts,2.4 kts,60.5 nm,24220.0 nm,9.5 nm
+21,FRA FRA 24,Yoann Richomme PAPREC ARKÉA,22:30 FR,45°48.47'N,02°46.52'W,267°,11.2 kts,10.2 kts,11.2 nm,199°,9.1 kts,7.0 kts,36.6 nm,224°,2.4 kts,2.3 kts,58.5 nm,24220.1 nm,9.6 nm
+22,FRA FRA 22,Guirec Soudée Freelance.com,22:30 FR,45°46.56'N,02°44.72'W,188°,11.7 kts,6.7 kts,5.8 nm,200°,10.4 kts,8.1 kts,41.6 nm,222°,2.5 kts,2.3 kts,59.0 nm,24220.4 nm,9.9 nm
+23,FRA FRA85,Nicolas Lunven HOLCIM - PRB,22:30 FR,45°41.31'N,02°40.59'W,174°,13.9 kts,4.7 kts,6.9 nm,184°,12.5 kts,7.5 kts,50.2 nm,217°,2.5 kts,2.3 kts,61.2 nm,24220.6 nm,10.1 nm
+24,FRA FRA 5,Éric Bellion STAND AS ONE,22:30 FR,45°48.32'N,02°44.65'W,176°,12.3 kts,4.8 kts,6.1 nm,187°,11.2 kts,7.3 kts,44.7 nm,223°,3.8 kts,3.6 kts,57.6 nm,24221.2 nm,10.7 nm
+25,FRA FRA 59,Thomas Ruyant VULNERABLE,22:30 FR,45°41.17'N,02°39.09'W,175°,14.7 kts,5.2 kts,7.4 nm,183°,12.8 kts,7.6 kts,51.4 nm,216°,2.5 kts,2.3 kts,60.7 nm,24221.5 nm,11.0 nm
+26,FRA FRA 18,Louis Burton Bureau Vallée,22:30 FR,45°40.20'N,02°37.98'W,261°,11.1 kts,10.7 kts,5.6 nm,187°,11.2 kts,7.1 kts,44.8 nm,215°,2.5 kts,2.3 kts,61.1 nm,24221.8 nm,11.3 nm
+27,GBR FRA 109,Samantha Davies Initiatives-Cœur,22:30 FR,45°48.58'N,02°43.49'W,176°,14.3 kts,5.6 kts,7.1 nm,196°,9.4 kts,6.9 kts,37.6 nm,223°,2.4 kts,2.3 kts,56.9 nm,24222.1 nm,11.6 nm
+28,BEL BEL 207,Denis Van Weynbergh D'Ieteren Group,22:30 FR,45°53.64'N,02°46.84'W,193°,11.6 kts,7.6 kts,5.8 nm,209°,9.3 kts,8.1 kts,37.2 nm,228°,2.3 kts,2.2 kts,55.0 nm,24222.3 nm,11.8 nm
+29,CHN CHN 5,Jingkun Xu Singchain Team Haikou,22:30 FR,46°05.84'N,02°56.58'W,277°,8.9 kts,7.0 kts,4.4 nm,217°,7.5 kts,7.1 kts,30.0 nm,243°,2.2 kts,2.2 kts,53.7 nm,24222.5 nm,12.0 nm
+30,HUN HUN 23,Szabolcs Weöres New Europe,22:30 FR,45°52.66'N,02°45.27'W,189°,9.6 kts,5.8 kts,4.8 nm,195°,8.9 kts,6.5 kts,35.5 nm,227°,2.3 kts,2.2 kts,54.9 nm,24222.8 nm,12.3 nm
+31,FRA FRA 71,Manuel Cousin Coup de Pouce,22:30 FR,45°48.61'N,02°41.95'W,184°,10.4 kts,5.4 kts,5.2 nm,190°,10.0 kts,6.8 kts,40.1 nm,222°,2.3 kts,2.2 kts,56.2 nm,24223.0 nm,12.5 nm
+32,FRA FRA 13,Damien Seguin Groupe APICIL,22:30 FR,45°46.48'N,02°38.87'W,268°,11.2 kts,10.2 kts,5.7 nm,189°,9.9 kts,6.5 kts,39.5 nm,219°,2.4 kts,2.2 kts,56.4 nm,24224.0 nm,13.5 nm
+33,ITA ITA 34,Giancarlo Pedote Prysmian,22:30 FR,45°41.91'N,02°31.64'W,171°,14.0 kts,3.9 kts,7.0 nm,179°,12.1 kts,6.4 kts,48.5 nm,212°,2.4 kts,2.1 kts,57.2 nm,24226.5 nm,16.0 nm
+34,FRA FRA 1461,Antoine Cornic HUMAN Immobilier,22:30 FR,45°47.86'N,02°35.34'W,189°,10.4 kts,6.0 kts,5.2 nm,192°,9.5 kts,6.5 kts,37.8 nm,218°,2.2 kts,2.1 kts,53.9 nm,24226.8 nm,16.3 nm
+35,SUI SUI 7,Alan Roura Hublot,22:30 FR,45°44.03'N,02°32.23'W,228°,7.3 kts,7.0 kts,3.7 nm,183°,10.8 kts,6.2 kts,43.4 nm,214°,2.3 kts,2.1 kts,55.7 nm,24227.1 nm,16.6 nm
+36,FRA FRA 1000,Tanguy Le Turquais Lazare,22:30 FR,45°47.25'N,02°34.23'W,254°,8.7 kts,8.6 kts,4.4 nm,193°,9.0 kts,6.2 kts,36.1 nm,217°,2.2 kts,2.1 kts,53.9 nm,24227.2 nm,16.7 nm
+37,JPN JPN 11,Kojiro Shiraishi DMG MORI Global One,22:30 FR,45°42.83'N,02°30.33'W,173°,11.7 kts,3.7 kts,5.9 nm,181°,10.4 kts,5.7 kts,41.8 nm,212°,2.3 kts,2.1 kts,56.0 nm,24227.8 nm,17.3 nm
+38,FRA FRA 27,Isabelle Joschke MACSF,22:30 FR,45°45.61'N,02°30.68'W,173°,11.6 kts,3.7 kts,5.8 nm,190°,8.4 kts,5.4 kts,33.6 nm,214°,2.2 kts,2.0 kts,53.7 nm,24228.7 nm,18.2 nm
+39,FRA FRA 09,Benjamin Dutreux GUYOT environnement - Water Family,22:30 FR,45°43.64'N,02°26.79'W,189°,8.1 kts,4.6 kts,4.1 nm,178°,11.5 kts,5.8 kts,46.1 nm,210°,2.2 kts,1.9 kts,54.0 nm,24230.3 nm,19.8 nm
+40,GER MON 1297,Boris Herrmann Malizia - Seaexplorer,22:30 FR,45°48.70'N,02°28.92'W,169°,13.9 kts,3.6 kts,6.9 nm,185°,10.3 kts,6.2 kts,41.2 nm,215°,2.1 kts,1.9 kts,50.5 nm,24231.2 nm,20.7 nm
